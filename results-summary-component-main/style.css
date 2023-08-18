@@ -74,3 +74,36 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  padding: 8rem;
+  gap: 5rem;
+}
+
+.card1 {
+  background: linear-gradient(
+    to top,
+    hsla(241, 72%, 46%, 0),
+    hsla(252, 100%, 67%)
+  );
+  border-radius: 2rem;
+  height: 30rem;
+  text-align: center;
+  align-content: center;
+}
+.results {
+  background: linear-gradient(
+    to top,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
