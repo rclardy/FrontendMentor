@@ -3,19 +3,34 @@ body {
   font-size: 1rem;
 }
 .card {
-  background-color: hsl(0, 0%, 100%);
-  text-align: center;
-  border-radius: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
 }
-
-h1 {
+.content-holder {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.5rem;
+  width: 19%;
+}
+.content {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.content h1 {
   color: hsl(218, 44%, 22%);
 }
 
-p {
+.content p {
   color: hsl(220, 15%, 55%);
 }
 
 img {
-  border-radius: 2.5rem;
+  border-radius: 1.5rem;
+  max-width: 300px;
+  margin-top: 0.5rem;
+  margin-top: 1rem;
+  height: auto;
 }
