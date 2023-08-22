@@ -1,0 +1,21 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 1rem;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 2.5rem;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+img {
+  border-radius: 2.5rem;
+}
